@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* In your App.css or a new file like Header.css */
+
+/* Style the container to center the content */
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Add a tagline for a more professional look */
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 10px;
+  color: #b3d1ff;
+}
+
+/* Style for buttons or call-to-action in the header */
+header button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #e65c00;
+}
