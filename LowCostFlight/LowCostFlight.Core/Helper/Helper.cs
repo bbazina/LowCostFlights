@@ -12,8 +12,8 @@ namespace LowCostFlight.Core.Helper
                     return "EUR";
                 case Currency.USD:
                     return "USD";
-                case Currency.HRK:
-                    return "HRK";
+                case Currency.GBP:
+                    return "GBP";
                 default:
                     throw new ArgumentOutOfRangeException(nameof(currency), currency, null);
             }

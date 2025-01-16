@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.12" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
@@ -19,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LowCostFlight.Core\LowCostFlight.Core.csproj" />
+    <ProjectReference Include="..\LowCostFlight.Repository\LowCostFlight.Repository.csproj" />
   </ItemGroup>
 
 </Project>

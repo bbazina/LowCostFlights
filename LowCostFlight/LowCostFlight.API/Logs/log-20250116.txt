@@ -1,0 +1,141 @@
+[2025-01-16 11:46:07 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:46:07 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:47:29 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:47:29 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:49:15 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:49:15 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:51:04 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 11:51:04 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 13:19:40 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 13:20:01 INF] HTTP GET /api/Flight responded 200 in 24328.7955 ms
+[2025-01-16 13:20:14 INF] HTTP GET /api/Flight responded 200 in 9913.0885 ms
+[2025-01-16 14:05:56 INF] HTTP GET /api/Flight responded 200 in 44474.3629 ms
+[2025-01-16 14:06:34 INF] HTTP GET /api/Flight responded 200 in 25591.5519 ms
+[2025-01-16 14:06:40 INF] HTTP GET /api/Flight responded 200 in 2497.2111 ms
+[2025-01-16 14:34:01 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 14:34:34 INF] HTTP GET /api/Flight responded 200 in 39176.8527 ms
+[2025-01-16 14:35:04 INF] HTTP GET /api/Flight responded 204 in 27842.1396 ms
+[2025-01-16 14:36:08 INF] HTTP GET /api/Flight responded 200 in 12610.2929 ms
+[2025-01-16 15:01:41 INF] HTTP GET /api/Flight responded 200 in 8389.6827 ms
+[2025-01-16 15:02:20 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 15:02:34 INF] HTTP GET /api/Flight responded 200 in 17757.1418 ms
+[2025-01-16 15:03:13 INF] HTTP GET /api/Flight responded 200 in 24038.3600 ms
+[2025-01-16 15:03:18 INF] HTTP GET /api/Flight responded 200 in 3122.4282 ms
+[2025-01-16 15:03:24 INF] HTTP GET /api/Flight responded 200 in 20.9437 ms
+[2025-01-16 15:03:51 INF] HTTP GET /api/Flight responded 200 in 22797.9044 ms
+[2025-01-16 15:04:22 INF] HTTP GET /api/Flight responded 200 in 15812.5055 ms
+[2025-01-16 15:04:40 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 15:05:09 INF] HTTP GET /api/Flight responded 200 in 32764.1019 ms
+[2025-01-16 15:05:17 INF] HTTP GET /api/Flight responded 200 in 3661.3248 ms
+[2025-01-16 15:05:22 INF] HTTP GET /api/Flight responded 200 in 15.1742 ms
+[2025-01-16 16:03:23 INF] HTTP GET /api/Flight responded 200 in 20.3040 ms
+[2025-01-16 16:04:35 INF] HTTP GET /api/Flight responded 200 in 9660.5133 ms
+[2025-01-16 16:04:44 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 16:05:08 INF] HTTP GET /api/Flight responded 200 in 27799.3211 ms
+[2025-01-16 16:15:00 INF] HTTP GET /api/Flight responded 200 in 10579.3915 ms
+[2025-01-16 16:20:01 INF] HTTP GET /api/Flight responded 200 in 937.6185 ms
+[2025-01-16 16:20:32 INF] HTTP GET /api/Flight responded 200 in 3789.0411 ms
+[2025-01-16 16:21:32 INF] HTTP GET /api/Flight responded 200 in 10618.9299 ms
+[2025-01-16 16:21:49 INF] HTTP GET /api/Flight responded 200 in 27.7938 ms
+[2025-01-16 16:23:31 INF] HTTP GET /api/Flight responded 200 in 38.8043 ms
+[2025-01-16 16:24:15 INF] HTTP GET /api/Flight responded 200 in 19.4598 ms
+[2025-01-16 16:24:16 INF] HTTP GET /api/Flight responded 200 in 31.9916 ms
+[2025-01-16 16:24:26 INF] HTTP GET /api/Flight responded 200 in 5452.4495 ms
+[2025-01-16 16:24:28 INF] HTTP GET /api/Flight responded 200 in 23.6444 ms
+[2025-01-16 16:24:29 INF] HTTP GET /api/Flight responded 200 in 20.8709 ms
+[2025-01-16 16:24:29 INF] HTTP GET /api/Flight responded 200 in 25.1451 ms
+[2025-01-16 16:24:30 INF] HTTP GET /api/Flight responded 200 in 21.5948 ms
+[2025-01-16 16:24:54 INF] HTTP GET /api/Flight responded 200 in 14042.2331 ms
+[2025-01-16 16:30:02 INF] HTTP GET /api/Flight responded 200 in 3467.8789 ms
+[2025-01-16 16:30:04 INF] HTTP GET /api/Flight responded 200 in 26.0852 ms
+[2025-01-16 16:30:05 INF] HTTP GET /api/Flight responded 200 in 25.1792 ms
+[2025-01-16 16:30:10 INF] HTTP GET /api/Flight responded 200 in 2494.9764 ms
+[2025-01-16 16:30:19 INF] HTTP GET /api/Flight responded 200 in 15.9835 ms
+[2025-01-16 16:32:03 INF] HTTP GET /api/Flight responded 200 in 32.8975 ms
+[2025-01-16 16:32:22 INF] HTTP GET /api/Flight responded 200 in 14192.5682 ms
+[2025-01-16 16:33:42 INF] HTTP GET /api/Flight responded 200 in 12357.7848 ms
+[2025-01-16 16:35:31 INF] HTTP GET /api/Flight responded 200 in 6724.1200 ms
+[2025-01-16 16:38:56 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 16:38:56 INF] HTTP GET /api/Flight responded 200 in 1465.9527 ms
+[2025-01-16 16:40:49 INF] HTTP GET /api/Flight responded 200 in 91459.7713 ms
+[2025-01-16 16:46:02 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 16:46:14 INF] HTTP GET /api/Flight responded 200 in 13752.0603 ms
+[2025-01-16 16:46:38 INF] HTTP GET /api/Flight responded 200 in 7038.9996 ms
+[2025-01-16 16:46:44 INF] HTTP GET /api/Flight responded 200 in 957.7526 ms
+[2025-01-16 16:46:49 INF] HTTP GET /api/Flight responded 200 in 752.4616 ms
+[2025-01-16 16:49:13 INF] HTTP GET /api/Flight responded 200 in 995.8081 ms
+[2025-01-16 16:49:20 ERR] HTTP GET /api/Flight responded 500 in 587.4101 ms
+System.Exception: Failed to fetch flight data from API
+   at LowCostFlight.Core.Services.FlightService.GetFlightsFromApiAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 93
+   at LowCostFlight.Core.Services.FlightService.GetFlightsAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 51
+   at LowCostFlight.API.Controllers.FlightController.GetFlightsAsync(FilterQuery filterQuery) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.API\Controllers\FlightController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[2025-01-16 16:49:20 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Failed to fetch flight data from API
+   at LowCostFlight.Core.Services.FlightService.GetFlightsFromApiAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 93
+   at LowCostFlight.Core.Services.FlightService.GetFlightsAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 51
+   at LowCostFlight.API.Controllers.FlightController.GetFlightsAsync(FilterQuery filterQuery) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.API\Controllers\FlightController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-01-16 16:49:55 ERR] HTTP GET /api/Flight responded 500 in 594.1907 ms
+System.Exception: Failed to fetch flight data from API
+   at LowCostFlight.Core.Services.FlightService.GetFlightsFromApiAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 93
+   at LowCostFlight.Core.Services.FlightService.GetFlightsAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 51
+   at LowCostFlight.API.Controllers.FlightController.GetFlightsAsync(FilterQuery filterQuery) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.API\Controllers\FlightController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[2025-01-16 16:49:55 ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Failed to fetch flight data from API
+   at LowCostFlight.Core.Services.FlightService.GetFlightsFromApiAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 93
+   at LowCostFlight.Core.Services.FlightService.GetFlightsAsync(FilterQuery filter) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.Core\Services\FlightService.cs:line 51
+   at LowCostFlight.API.Controllers.FlightController.GetFlightsAsync(FilterQuery filterQuery) in C:\code\LowCostFlights\LowCostFlight\LowCostFlight.API\Controllers\FlightController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-01-16 17:00:38 INF] HTTP GET /api/Flight responded 400 in 182.7781 ms
+[2025-01-16 17:00:51 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-16 17:01:14 INF] HTTP GET /api/Flight responded 200 in 23505.1064 ms
+[2025-01-16 17:01:42 INF] HTTP GET /api/Flight responded 200 in 22167.1698 ms
+[2025-01-16 17:01:44 INF] HTTP GET /api/Flight responded 200 in 19.5650 ms

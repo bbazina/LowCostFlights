@@ -4,6 +4,6 @@
     {
         EUR,
         USD,
-        HRK
+        GBP
     }
 }

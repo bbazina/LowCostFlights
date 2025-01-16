@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LowCostFlight.Domain\LowCostFlight.Domain.csproj" />
+    <ProjectReference Include="..\LowCostFlight.Repository\LowCostFlight.Repository.csproj" />
   </ItemGroup>
 
 </Project>
