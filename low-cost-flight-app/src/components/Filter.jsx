@@ -74,7 +74,7 @@ const Filter = ({ onSearch }) => {
               // Ensure departure date is after now and before return date
               if (
                 selectedDate > now &&
-                (!returnDate || selectedDate <= returnDateValue)
+                (!returnDate || selectedDate < returnDateValue)
               ) {
                 setDepartureDate(e.target.value);
               } else {
@@ -95,7 +95,7 @@ const Filter = ({ onSearch }) => {
               const departureDateValue = new Date(departureDate);
 
               // Ensure return date is after departure date
-              if (selectedDate > departureDateValue) {
+              if (selectedDate >= departureDateValue) {
                 setReturnDate(e.target.value);
               } else {
                 alert("Return date must be after the departure date.");

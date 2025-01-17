@@ -1,0 +1,327 @@
+[2025-01-17 15:03:45 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:03:46 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:03:46 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:04:04 INF] HTTP GET /api/Flight responded 200 in 20734.4982 ms
+[2025-01-17 15:04:12 INF] HTTP GET /api/Flight responded 200 in 1779.3534 ms
+[2025-01-17 15:04:20 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:04:20 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:04:20 INF] HTTP GET /api/Flight responded 200 in 49.3338 ms
+[2025-01-17 15:04:22 INF] HTTP GET /api/Flight responded 200 in 28.0703 ms
+[2025-01-17 15:04:24 INF] HTTP GET /api/Flight responded 200 in 26.7346 ms
+[2025-01-17 15:04:26 INF] HTTP GET /api/Flight responded 200 in 25.2921 ms
+[2025-01-17 15:04:46 INF] HTTP GET /api/Flight responded 200 in 35.2953 ms
+[2025-01-17 15:04:54 INF] HTTP GET /api/Flight responded 200 in 50.6332 ms
+[2025-01-17 15:05:01 INF] HTTP GET /api/Flight responded 200 in 41.4266 ms
+[2025-01-17 15:06:08 INF] HTTP GET /api/Flight responded 200 in 38.3246 ms
+[2025-01-17 15:06:10 INF] HTTP GET /api/Flight responded 200 in 30.7548 ms
+[2025-01-17 15:06:12 INF] HTTP GET /api/Flight responded 200 in 26.0689 ms
+[2025-01-17 15:06:13 INF] HTTP GET /api/Flight responded 200 in 20.5860 ms
+[2025-01-17 15:06:14 INF] HTTP GET /api/Flight responded 200 in 36.4400 ms
+[2025-01-17 15:06:28 INF] HTTP GET /api/Flight responded 200 in 21.6926 ms
+[2025-01-17 15:06:40 INF] HTTP GET /api/Flight responded 200 in 31.3925 ms
+[2025-01-17 15:06:41 INF] HTTP GET /api/Flight responded 200 in 38.2787 ms
+[2025-01-17 15:06:42 INF] HTTP GET /api/Flight responded 200 in 33.8003 ms
+[2025-01-17 15:06:42 INF] HTTP GET /api/Flight responded 200 in 23.5427 ms
+[2025-01-17 15:06:43 INF] HTTP GET /api/Flight responded 200 in 23.4572 ms
+[2025-01-17 15:06:44 INF] HTTP GET /api/Flight responded 200 in 24.1147 ms
+[2025-01-17 15:06:45 INF] HTTP GET /api/Flight responded 200 in 19.6268 ms
+[2025-01-17 15:06:45 INF] HTTP GET /api/Flight responded 200 in 38.5718 ms
+[2025-01-17 15:06:45 INF] HTTP GET /api/Flight responded 200 in 24.5411 ms
+[2025-01-17 15:06:46 INF] HTTP GET /api/Flight responded 200 in 28.0119 ms
+[2025-01-17 15:06:46 INF] HTTP GET /api/Flight responded 200 in 23.2184 ms
+[2025-01-17 15:06:46 INF] HTTP GET /api/Flight responded 200 in 24.5912 ms
+[2025-01-17 15:06:46 INF] HTTP GET /api/Flight responded 200 in 24.8867 ms
+[2025-01-17 15:06:46 INF] HTTP GET /api/Flight responded 200 in 25.9347 ms
+[2025-01-17 15:08:02 INF] HTTP GET /api/Flight responded 200 in 36.1614 ms
+[2025-01-17 15:08:03 INF] HTTP GET /api/Flight responded 200 in 60.0349 ms
+[2025-01-17 15:08:03 INF] HTTP GET /api/Flight responded 200 in 56.6090 ms
+[2025-01-17 15:08:04 INF] HTTP GET /api/Flight responded 200 in 32.7543 ms
+[2025-01-17 15:08:06 INF] HTTP GET /api/Flight responded 200 in 33.9793 ms
+[2025-01-17 15:08:08 INF] HTTP GET /api/Flight responded 200 in 39.4393 ms
+[2025-01-17 15:08:09 INF] HTTP GET /api/Flight responded 200 in 47.5578 ms
+[2025-01-17 15:08:09 INF] HTTP GET /api/Flight responded 200 in 27.3166 ms
+[2025-01-17 15:08:10 INF] HTTP GET /api/Flight responded 200 in 145.0625 ms
+[2025-01-17 15:08:11 INF] HTTP GET /api/Flight responded 200 in 48.2744 ms
+[2025-01-17 15:08:11 INF] HTTP GET /api/Flight responded 200 in 41.5988 ms
+[2025-01-17 15:08:12 INF] HTTP GET /api/Flight responded 200 in 37.4787 ms
+[2025-01-17 15:08:12 INF] HTTP GET /api/Flight responded 200 in 31.5264 ms
+[2025-01-17 15:08:13 INF] HTTP GET /api/Flight responded 200 in 27.5710 ms
+[2025-01-17 15:08:13 INF] HTTP GET /api/Flight responded 200 in 50.6516 ms
+[2025-01-17 15:08:13 INF] HTTP GET /api/Flight responded 200 in 24.4807 ms
+[2025-01-17 15:08:13 INF] HTTP GET /api/Flight responded 200 in 29.2683 ms
+[2025-01-17 15:08:14 INF] HTTP GET /api/Flight responded 200 in 38.9349 ms
+[2025-01-17 15:08:15 INF] HTTP GET /api/Flight responded 200 in 27.8507 ms
+[2025-01-17 15:08:15 INF] HTTP GET /api/Flight responded 200 in 26.8366 ms
+[2025-01-17 15:08:15 INF] HTTP GET /api/Flight responded 200 in 25.8878 ms
+[2025-01-17 15:08:15 INF] HTTP GET /api/Flight responded 200 in 22.4573 ms
+[2025-01-17 15:08:16 INF] HTTP GET /api/Flight responded 200 in 23.6917 ms
+[2025-01-17 15:08:16 INF] HTTP GET /api/Flight responded 200 in 20.0023 ms
+[2025-01-17 15:08:16 INF] HTTP GET /api/Flight responded 200 in 26.6443 ms
+[2025-01-17 15:08:16 INF] HTTP GET /api/Flight responded 200 in 23.9680 ms
+[2025-01-17 15:08:27 INF] HTTP GET /api/Flight responded 200 in 4164.0900 ms
+[2025-01-17 15:08:31 INF] HTTP GET /api/Flight responded 200 in 25.5493 ms
+[2025-01-17 15:08:31 INF] HTTP GET /api/Flight responded 200 in 30.5641 ms
+[2025-01-17 15:08:32 INF] HTTP GET /api/Flight responded 200 in 35.8344 ms
+[2025-01-17 15:08:33 INF] HTTP GET /api/Flight responded 200 in 29.4125 ms
+[2025-01-17 15:08:33 INF] HTTP GET /api/Flight responded 200 in 21.3994 ms
+[2025-01-17 15:08:34 INF] HTTP GET /api/Flight responded 200 in 20.2513 ms
+[2025-01-17 15:20:18 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:20:18 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:20:18 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:21:05 INF] HTTP GET /api/Flight responded 200 in 62919.7825 ms
+[2025-01-17 15:21:37 INF] HTTP GET /api/Flight responded 200 in 5211.3717 ms
+[2025-01-17 15:22:41 INF] HTTP GET /api/Flight responded 200 in 29962.1234 ms
+[2025-01-17 15:23:13 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:23:13 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:33:22 INF] HTTP GET /api/Flight responded 200 in 10405.3505 ms
+[2025-01-17 15:33:27 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:33:28 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:33:28 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:33:31 INF] HTTP GET /api/Flight responded 200 in 7345.3034 ms
+[2025-01-17 15:33:37 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:33:37 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:33:37 INF] HTTP GET /api/Flight responded 200 in 3720.1963 ms
+[2025-01-17 15:33:43 INF] HTTP GET /api/Flight responded 200 in 2242.1060 ms
+[2025-01-17 15:33:50 INF] HTTP GET /api/Flight responded 200 in 15.4643 ms
+[2025-01-17 15:33:51 INF] HTTP GET /api/Flight responded 200 in 11.0235 ms
+[2025-01-17 15:33:52 INF] HTTP GET /api/Flight responded 200 in 13.5248 ms
+[2025-01-17 15:33:53 INF] HTTP GET /api/Flight responded 200 in 26.3678 ms
+[2025-01-17 15:33:54 INF] HTTP GET /api/Flight responded 200 in 28.6440 ms
+[2025-01-17 15:33:55 INF] HTTP GET /api/Flight responded 200 in 15.1520 ms
+[2025-01-17 15:33:55 INF] HTTP GET /api/Flight responded 200 in 19.3296 ms
+[2025-01-17 15:35:02 INF] HTTP GET /api/Flight responded 200 in 43242.7063 ms
+[2025-01-17 15:35:02 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:35:02 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:35:02 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:35:49 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:35:49 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:35:49 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:36:35 INF] HTTP GET /api/Flight responded 200 in 57874.0210 ms
+[2025-01-17 15:36:42 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:36:42 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:36:44 INF] HTTP GET /api/Flight responded 200 in 5217.0999 ms
+[2025-01-17 15:36:50 INF] HTTP GET /api/Flight responded 200 in 2601.5909 ms
+[2025-01-17 15:37:01 INF] HTTP GET /api/Flight responded 200 in 1399.5974 ms
+[2025-01-17 15:37:09 INF] HTTP GET /api/Flight responded 200 in 1345.1176 ms
+[2025-01-17 15:39:19 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:39:19 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:39:19 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:40:57 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:40:57 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:40:57 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:41:30 INF] HTTP GET /api/Flight responded 200 in 38555.6020 ms
+[2025-01-17 15:41:35 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:41:35 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:45:27 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:45:28 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:45:28 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:45:33 INF] HTTP GET /api/Flight responded 200 in 6827.1935 ms
+[2025-01-17 15:45:35 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:45:35 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:45:35 INF] HTTP GET /api/Flight responded 200 in 85.5676 ms
+[2025-01-17 15:45:36 INF] HTTP GET /api/Flight responded 200 in 38.1159 ms
+[2025-01-17 15:45:37 INF] HTTP GET /api/Flight responded 200 in 26.7418 ms
+[2025-01-17 15:45:39 INF] HTTP GET /api/Flight responded 200 in 23.0961 ms
+[2025-01-17 15:45:41 INF] HTTP GET /api/Flight responded 200 in 34.5412 ms
+[2025-01-17 15:45:42 INF] HTTP GET /api/Flight responded 200 in 28.6483 ms
+[2025-01-17 15:45:42 INF] HTTP GET /api/Flight responded 200 in 29.8303 ms
+[2025-01-17 15:45:43 INF] HTTP GET /api/Flight responded 200 in 31.9903 ms
+[2025-01-17 15:55:25 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:55:26 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:55:26 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:57:12 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 15:57:13 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 15:57:13 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 16:01:31 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 16:01:31 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 16:01:31 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 16:02:38 INF] HTTP GET /api/Flight responded 200 in 74625.4508 ms
+[2025-01-17 16:02:50 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 16:02:50 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 16:06:12 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 16:06:13 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 16:06:13 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:02:09 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:02:10 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:02:10 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:03:07 INF] HTTP GET /api/Flight responded 200 in 64852.1689 ms
+[2025-01-17 17:03:18 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:03:18 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:03:34 INF] HTTP GET /api/Flight responded 200 in 21057.3439 ms
+[2025-01-17 17:03:46 INF] HTTP GET /api/Flight responded 200 in 8496.3747 ms
+[2025-01-17 17:03:55 INF] HTTP GET /api/Flight responded 200 in 17.0991 ms
+[2025-01-17 17:03:55 INF] HTTP GET /api/Flight responded 200 in 45.0950 ms
+[2025-01-17 17:03:57 INF] HTTP GET /api/Flight responded 200 in 29.4647 ms
+[2025-01-17 17:03:57 INF] HTTP GET /api/Flight responded 200 in 21.0157 ms
+[2025-01-17 17:03:58 INF] HTTP GET /api/Flight responded 200 in 25.2382 ms
+[2025-01-17 17:04:00 INF] HTTP GET /api/Flight responded 200 in 40.3815 ms
+[2025-01-17 17:04:00 INF] HTTP GET /api/Flight responded 200 in 41.2528 ms
+[2025-01-17 17:04:01 INF] HTTP GET /api/Flight responded 200 in 23.7855 ms
+[2025-01-17 17:04:01 INF] HTTP GET /api/Flight responded 200 in 15.4073 ms
+[2025-01-17 17:04:02 INF] HTTP GET /api/Flight responded 200 in 32.6767 ms
+[2025-01-17 17:04:04 INF] HTTP GET /api/Flight responded 200 in 26.4949 ms
+[2025-01-17 17:04:04 INF] HTTP GET /api/Flight responded 200 in 18.5021 ms
+[2025-01-17 17:04:04 INF] HTTP GET /api/Flight responded 200 in 38.3159 ms
+[2025-01-17 17:04:05 INF] HTTP GET /api/Flight responded 200 in 33.8314 ms
+[2025-01-17 17:04:05 INF] HTTP GET /api/Flight responded 200 in 15.2924 ms
+[2025-01-17 17:04:06 INF] HTTP GET /api/Flight responded 200 in 32.6066 ms
+[2025-01-17 17:04:06 INF] HTTP GET /api/Flight responded 200 in 23.6080 ms
+[2025-01-17 17:04:06 INF] HTTP GET /api/Flight responded 200 in 28.6422 ms
+[2025-01-17 17:04:07 INF] HTTP GET /api/Flight responded 200 in 24.5039 ms
+[2025-01-17 17:04:07 INF] HTTP GET /api/Flight responded 200 in 38.2400 ms
+[2025-01-17 17:04:07 INF] HTTP GET /api/Flight responded 200 in 29.3935 ms
+[2025-01-17 17:04:07 INF] HTTP GET /api/Flight responded 200 in 21.5915 ms
+[2025-01-17 17:04:07 INF] HTTP GET /api/Flight responded 200 in 23.7934 ms
+[2025-01-17 17:04:08 INF] HTTP GET /api/Flight responded 200 in 24.7744 ms
+[2025-01-17 17:04:08 INF] HTTP GET /api/Flight responded 200 in 24.4999 ms
+[2025-01-17 17:04:08 INF] HTTP GET /api/Flight responded 200 in 21.7954 ms
+[2025-01-17 17:04:09 INF] HTTP GET /api/Flight responded 200 in 28.2210 ms
+[2025-01-17 17:04:09 INF] HTTP GET /api/Flight responded 200 in 50.1773 ms
+[2025-01-17 17:04:09 INF] HTTP GET /api/Flight responded 200 in 44.0165 ms
+[2025-01-17 17:04:10 INF] HTTP GET /api/Flight responded 200 in 25.2546 ms
+[2025-01-17 17:04:10 INF] HTTP GET /api/Flight responded 200 in 24.5284 ms
+[2025-01-17 17:04:11 INF] HTTP GET /api/Flight responded 200 in 24.6579 ms
+[2025-01-17 17:04:11 INF] HTTP GET /api/Flight responded 200 in 20.3894 ms
+[2025-01-17 17:04:12 INF] HTTP GET /api/Flight responded 200 in 27.7494 ms
+[2025-01-17 17:04:12 INF] HTTP GET /api/Flight responded 200 in 19.4770 ms
+[2025-01-17 17:04:12 INF] HTTP GET /api/Flight responded 200 in 22.9406 ms
+[2025-01-17 17:04:13 INF] HTTP GET /api/Flight responded 200 in 19.8551 ms
+[2025-01-17 17:04:13 INF] HTTP GET /api/Flight responded 200 in 51.0043 ms
+[2025-01-17 17:04:14 INF] HTTP GET /api/Flight responded 200 in 30.9710 ms
+[2025-01-17 17:04:14 INF] HTTP GET /api/Flight responded 200 in 17.7451 ms
+[2025-01-17 17:04:15 INF] HTTP GET /api/Flight responded 200 in 29.7939 ms
+[2025-01-17 17:04:15 INF] HTTP GET /api/Flight responded 200 in 31.1923 ms
+[2025-01-17 17:04:17 INF] HTTP GET /api/Flight responded 200 in 31.6756 ms
+[2025-01-17 17:04:19 INF] HTTP GET /api/Flight responded 200 in 29.4972 ms
+[2025-01-17 17:04:20 INF] HTTP GET /api/Flight responded 200 in 29.1060 ms
+[2025-01-17 17:04:21 INF] HTTP GET /api/Flight responded 200 in 21.6651 ms
+[2025-01-17 17:04:21 INF] HTTP GET /api/Flight responded 200 in 20.6074 ms
+[2025-01-17 17:04:28 INF] HTTP GET /api/Flight responded 200 in 1624.8847 ms
+[2025-01-17 17:05:25 INF] HTTP GET /api/Flight responded 200 in 12219.5758 ms
+[2025-01-17 17:05:43 INF] HTTP GET /api/Flight responded 200 in 9162.6606 ms
+[2025-01-17 17:06:14 INF] HTTP GET /api/Flight responded 200 in 20892.2804 ms
+[2025-01-17 17:06:56 INF] HTTP GET /api/Flight responded 200 in 14864.6089 ms
+[2025-01-17 17:07:09 INF] HTTP GET /api/Flight responded 200 in 14.9638 ms
+[2025-01-17 17:07:11 INF] HTTP GET /api/Flight responded 200 in 28.6966 ms
+[2025-01-17 17:09:04 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:09:05 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:09:05 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:09:19 INF] HTTP GET /api/Flight responded 200 in 16063.3082 ms
+[2025-01-17 17:10:41 INF] HTTP GET /api/Flight responded 200 in 68143.7790 ms
+[2025-01-17 17:10:51 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:10:51 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:10:51 INF] HTTP GET /api/Flight responded 200 in 5193.3949 ms
+[2025-01-17 17:10:54 INF] HTTP GET /api/Flight responded 200 in 40.0559 ms
+[2025-01-17 17:10:57 INF] HTTP GET /api/Flight responded 200 in 32.8468 ms
+[2025-01-17 17:10:58 INF] HTTP GET /api/Flight responded 200 in 22.0453 ms
+[2025-01-17 17:11:03 INF] HTTP GET /api/Flight responded 200 in 24.9832 ms
+[2025-01-17 17:11:03 INF] HTTP GET /api/Flight responded 200 in 28.4392 ms
+[2025-01-17 17:11:04 INF] HTTP GET /api/Flight responded 200 in 36.9808 ms
+[2025-01-17 17:11:05 INF] HTTP GET /api/Flight responded 200 in 29.3810 ms
+[2025-01-17 17:11:09 INF] HTTP GET /api/Flight responded 200 in 24.7198 ms
+[2025-01-17 17:11:09 INF] HTTP GET /api/Flight responded 200 in 13.4643 ms
+[2025-01-17 17:11:10 INF] HTTP GET /api/Flight responded 200 in 24.2180 ms
+[2025-01-17 17:11:21 INF] HTTP GET /api/Flight responded 200 in 39.5440 ms
+[2025-01-17 17:11:22 INF] HTTP GET /api/Flight responded 200 in 26.3161 ms
+[2025-01-17 17:11:23 INF] HTTP GET /api/Flight responded 200 in 22.2741 ms
+[2025-01-17 17:11:53 INF] HTTP GET /api/Flight responded 200 in 17525.0806 ms
+[2025-01-17 17:12:13 INF] HTTP GET /api/Flight responded 200 in 49.4476 ms
+[2025-01-17 17:12:14 INF] HTTP GET /api/Flight responded 200 in 51.1849 ms
+[2025-01-17 17:12:15 INF] HTTP GET /api/Flight responded 200 in 17.8490 ms
+[2025-01-17 17:12:16 INF] HTTP GET /api/Flight responded 200 in 25.0826 ms
+[2025-01-17 17:12:17 INF] HTTP GET /api/Flight responded 200 in 33.4443 ms
+[2025-01-17 17:12:17 INF] HTTP GET /api/Flight responded 200 in 27.6399 ms
+[2025-01-17 17:12:18 INF] HTTP GET /api/Flight responded 200 in 32.4479 ms
+[2025-01-17 17:12:19 INF] HTTP GET /api/Flight responded 200 in 29.3035 ms
+[2025-01-17 17:12:20 INF] HTTP GET /api/Flight responded 200 in 21.2617 ms
+[2025-01-17 17:12:21 INF] HTTP GET /api/Flight responded 200 in 27.9547 ms
+[2025-01-17 17:12:22 INF] HTTP GET /api/Flight responded 200 in 39.6612 ms
+[2025-01-17 17:12:22 INF] HTTP GET /api/Flight responded 200 in 16.9469 ms
+[2025-01-17 17:12:22 INF] HTTP GET /api/Flight responded 200 in 18.9807 ms
+[2025-01-17 17:12:37 INF] HTTP GET /api/Flight responded 200 in 8013.7959 ms
+[2025-01-17 17:19:22 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:19:25 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:19:25 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:21:03 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:21:46 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:21:51 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:21:51 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:24:17 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:24:17 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:24:17 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:24:57 INF] HTTP GET /api/Flight responded 200 in 49081.5495 ms
+[2025-01-17 17:25:42 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:25:52 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:25:52 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:25:52 INF] HTTP GET /api/Flight responded 200 in 17086.2231 ms
+[2025-01-17 17:35:13 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:38:11 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:41:06 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:41:06 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:41:19 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:41:19 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:41:19 INF] HTTP GET /api/Flight responded 200 in 217906.7130 ms
+[2025-01-17 17:42:05 INF] HTTP GET /api/Flight responded 200 in 29901.1197 ms
+[2025-01-17 17:43:35 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:45:05 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Flight'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-01-17 17:45:10 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:45:10 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:45:22 INF] HTTP GET /api/Flight responded 200 in 25186.7551 ms
+[2025-01-17 17:46:30 INF] HTTP GET /api/Flight responded 200 in 50779.1232 ms
+[2025-01-17 17:46:44 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:46:44 WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2025-01-17 17:46:44 INF] HTTP GET /api/Flight responded 200 in 52.9268 ms
+[2025-01-17 17:46:45 INF] HTTP GET /api/Flight responded 200 in 26.2052 ms
+[2025-01-17 17:46:56 INF] HTTP GET /api/Flight responded 200 in 798.0979 ms
+[2025-01-17 17:46:57 INF] HTTP GET /api/Flight responded 200 in 45.9999 ms
+[2025-01-17 17:47:04 INF] HTTP GET /api/Flight responded 200 in 1096.4418 ms
+[2025-01-17 17:47:05 INF] HTTP GET /api/Flight responded 200 in 42.7683 ms
+[2025-01-17 17:47:06 INF] HTTP GET /api/Flight responded 200 in 27.5139 ms
+[2025-01-17 17:47:09 INF] HTTP GET /api/Flight responded 200 in 704.7286 ms
+[2025-01-17 17:47:10 INF] HTTP GET /api/Flight responded 200 in 26.6600 ms
+[2025-01-17 17:47:12 INF] HTTP GET /api/Flight responded 200 in 36.9622 ms
+[2025-01-17 17:47:35 INF] HTTP GET /api/Flight responded 200 in 4879.5267 ms
+[2025-01-17 17:47:38 INF] HTTP GET /api/Flight responded 200 in 68.0837 ms
+[2025-01-17 17:47:40 INF] HTTP GET /api/Flight responded 200 in 26.9255 ms
+[2025-01-17 17:47:41 INF] HTTP GET /api/Flight responded 200 in 55.7356 ms
+[2025-01-17 17:47:41 INF] HTTP GET /api/Flight responded 200 in 50.4105 ms
+[2025-01-17 17:47:42 INF] HTTP GET /api/Flight responded 200 in 39.9852 ms
+[2025-01-17 17:47:42 INF] HTTP GET /api/Flight responded 200 in 33.6222 ms
+[2025-01-17 17:47:42 INF] HTTP GET /api/Flight responded 200 in 31.2775 ms
+[2025-01-17 17:47:42 INF] HTTP GET /api/Flight responded 200 in 36.4003 ms
+[2025-01-17 17:47:43 INF] HTTP GET /api/Flight responded 200 in 28.1891 ms
+[2025-01-17 17:47:43 INF] HTTP GET /api/Flight responded 200 in 28.3842 ms
+[2025-01-17 17:47:43 INF] HTTP GET /api/Flight responded 200 in 46.2689 ms
+[2025-01-17 17:47:45 INF] HTTP GET /api/Flight responded 200 in 31.6239 ms
+[2025-01-17 17:47:45 INF] HTTP GET /api/Flight responded 200 in 26.7893 ms
+[2025-01-17 17:47:46 INF] HTTP GET /api/Flight responded 200 in 25.3502 ms
+[2025-01-17 17:47:46 INF] HTTP GET /api/Flight responded 200 in 27.4519 ms
+[2025-01-17 17:47:47 INF] HTTP GET /api/Flight responded 200 in 122.5376 ms
+[2025-01-17 17:47:47 INF] HTTP GET /api/Flight responded 200 in 28.4415 ms
+[2025-01-17 17:47:48 INF] HTTP GET /api/Flight responded 200 in 45.0734 ms
+[2025-01-17 17:47:48 INF] HTTP GET /api/Flight responded 200 in 64.0013 ms
+[2025-01-17 17:47:48 INF] HTTP GET /api/Flight responded 200 in 34.8694 ms
+[2025-01-17 17:47:49 INF] HTTP GET /api/Flight responded 200 in 35.3506 ms
+[2025-01-17 17:47:49 INF] HTTP GET /api/Flight responded 200 in 34.6385 ms
+[2025-01-17 17:47:50 INF] HTTP GET /api/Flight responded 200 in 28.0517 ms
+[2025-01-17 17:47:51 INF] HTTP GET /api/Flight responded 200 in 21.1728 ms
+[2025-01-17 17:47:51 INF] HTTP GET /api/Flight responded 200 in 25.1843 ms
+[2025-01-17 17:47:51 INF] HTTP GET /api/Flight responded 200 in 27.1635 ms
+[2025-01-17 17:47:52 INF] HTTP GET /api/Flight responded 200 in 22.2913 ms
+[2025-01-17 17:47:52 INF] HTTP GET /api/Flight responded 200 in 27.5743 ms
+[2025-01-17 17:47:52 INF] HTTP GET /api/Flight responded 200 in 22.3837 ms
+[2025-01-17 17:47:52 INF] HTTP GET /api/Flight responded 200 in 23.7678 ms
+[2025-01-17 17:47:52 INF] HTTP GET /api/Flight responded 200 in 31.3120 ms
+[2025-01-17 17:47:53 INF] HTTP GET /api/Flight responded 200 in 23.9120 ms
+[2025-01-17 17:47:53 INF] HTTP GET /api/Flight responded 200 in 50.2552 ms
+[2025-01-17 17:47:53 INF] HTTP GET /api/Flight responded 200 in 24.6431 ms
+[2025-01-17 17:47:53 INF] HTTP GET /api/Flight responded 200 in 29.4562 ms
+[2025-01-17 17:47:54 INF] HTTP GET /api/Flight responded 200 in 29.8308 ms
+[2025-01-17 17:47:55 INF] HTTP GET /api/Flight responded 200 in 19.1240 ms
+[2025-01-17 17:47:55 INF] HTTP GET /api/Flight responded 200 in 18.1896 ms
+[2025-01-17 17:47:56 INF] HTTP GET /api/Flight responded 200 in 19.3154 ms
+[2025-01-17 17:47:56 INF] HTTP GET /api/Flight responded 200 in 33.0268 ms
+[2025-01-17 17:47:56 INF] HTTP GET /api/Flight responded 200 in 23.4162 ms
+[2025-01-17 17:47:56 INF] HTTP GET /api/Flight responded 200 in 17.2412 ms
+[2025-01-17 17:47:56 INF] HTTP GET /api/Flight responded 200 in 18.0423 ms
+[2025-01-17 17:47:57 INF] HTTP GET /api/Flight responded 200 in 59.8071 ms

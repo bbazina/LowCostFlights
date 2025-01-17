@@ -30,52 +30,67 @@ namespace LowCostFlight.Core.Services
             _distributedCache = distributedCache;
         }
 
-        public async Task<List<Flight>> GetFlightsAsync(FilterQuery filter)
+        public async Task<PaginatedResponse<Flight>> GetFlightsAsync(FilterQuery filter)
         {
-            // Try to get flights from cache
-            var cachedFlights = await GetFlightsFromCacheAsync(filter);
-            if (cachedFlights != null)
+            // Step 1: Try to fetch data from cache
+            var cachedResponse = await GetFlightsFromCacheAsync(filter);
+            if (cachedResponse != null)
             {
-                return cachedFlights;
+                return cachedResponse;
             }
 
-            // Try to get flights from the database
-            var flightsFromDb = await _flightRepository.GetFlightsAsync(filter);
-            if (flightsFromDb.Count > 0)
+            // Step 2: Try to fetch data from the database
+            var resultFromDb = await _flightRepository.GetFlightsAsync(filter);
+            if (resultFromDb.Items.Count > 0)
             {
-                await SetFlightsToCacheAsync(filter, flightsFromDb);
-                return flightsFromDb;
+                // Cache the paginated result
+                await SetFlightsToCacheAsync(filter, resultFromDb);
+                return resultFromDb;
             }
 
-            // Fetch flights from external API
+            // Step 3: Fetch flights from external API if not found in DB
             var flightsFromApi = await GetFlightsFromApiAsync(filter);
             if (flightsFromApi.Count > 0)
             {
-                await SetFlightsToCacheAsync(filter, flightsFromApi);
+                // Save flights to the database
                 await _flightRepository.AddFlightsAsync(flightsFromApi);
+
+                // Fetch the newly added data as paginated response
+                var newResultFromDb = await _flightRepository.GetFlightsAsync(filter);
+                await SetFlightsToCacheAsync(filter, newResultFromDb);
+                return newResultFromDb;
             }
 
-            return flightsFromApi;
+            // Step 4: Return an empty paginated response if no data is found
+            return new PaginatedResponse<Flight>
+            {
+                Items = new List<Flight>(),
+                TotalCount = 0,
+                PageCount = 0,
+            };
         }
 
-        private async Task<List<Flight>?> GetFlightsFromCacheAsync(FilterQuery filter)
+        private async Task<PaginatedResponse<Flight>?> GetFlightsFromCacheAsync(FilterQuery filter)
         {
             string cacheKey = GenerateCacheKey(filter);
             var cachedFlights = await _distributedCache.GetStringAsync(cacheKey);
+
             if (!string.IsNullOrEmpty(cachedFlights))
             {
-                return JsonSerializer.Deserialize<List<Flight>>(cachedFlights);
+                return JsonSerializer.Deserialize<PaginatedResponse<Flight>>(cachedFlights);
             }
+
             return null;
         }
 
-        private async Task SetFlightsToCacheAsync(FilterQuery filter, List<Flight> flights)
+        private async Task SetFlightsToCacheAsync(FilterQuery filter, PaginatedResponse<Flight> paginatedResponse)
         {
             string cacheKey = GenerateCacheKey(filter);
-            var flightsJson = JsonSerializer.Serialize(flights);
+            var flightsJson = JsonSerializer.Serialize(paginatedResponse);
+
             await _distributedCache.SetStringAsync(cacheKey, flightsJson, new DistributedCacheEntryOptions
             {
-                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30) // Set cache expiration time
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30)
             });
         }
 
@@ -106,7 +121,7 @@ namespace LowCostFlight.Core.Services
 
         private string GenerateCacheKey(FilterQuery filter)
         {
-            return $"flights_{filter.OriginIataCode}_{filter.DestinationIataCode}_{filter.DepartureDate:yyyyMMdd}_{filter.ReturnDate:yyyyMMdd}_{filter.NumberOfPassengers}_{filter.Currency}";
+            return $"flights_{filter.OriginIataCode}_{filter.DestinationIataCode}_{filter.DepartureDate:yyyyMMdd}_{filter.ReturnDate:yyyyMMdd}_{filter.NumberOfPassengers}_{filter.Currency}_page_{filter.Page}";
         }
 
         private string GetUrlWithParams(string token, FilterQuery filter)

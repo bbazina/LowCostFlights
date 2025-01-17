@@ -8,5 +8,7 @@
         public DateTime? ReturnDate { get; set; }
         public int NumberOfPassengers { get; set; }
         public Currency Currency { get; set; }
+        public int Page { get; set; } = 1;
+        public int PageSize { get; set; } = 10;
     }
 }

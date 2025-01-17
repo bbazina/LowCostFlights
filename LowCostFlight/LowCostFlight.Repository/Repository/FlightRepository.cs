@@ -13,19 +13,36 @@ namespace LowCostFlight.Repository.Repository
             _dbContext = dbContext;
         }
 
-        public async Task<List<Flight>> GetFlightsAsync(FilterQuery filter)
+        public async Task<PaginatedResponse<Flight>> GetFlightsAsync(FilterQuery filter)
         {
-            var flights = await _dbContext.Set<Flight>()
-                    .Where(f =>
-                        f.OriginAirport == filter.OriginIataCode &&
-                        f.DestinationAirport == filter.DestinationIataCode &&
-                        f.DepartureDate.Date == filter.DepartureDate.Date &&
-                        (!filter.ReturnDate.HasValue || f.ReturnDate.HasValue && f.ReturnDate.Value.Date == filter.ReturnDate.Value.Date) &&
-                        f.NumberOfPassengers == filter.NumberOfPassengers &&
-                        f.Currency == filter.Currency)
-                    .ToListAsync();
+            var skip = (filter.Page - 1) * filter.PageSize;
+            var take = filter.PageSize;
 
-            return flights;
+            var flightQuery = _dbContext.Set<Flight>()
+                .AsNoTracking()
+                .Where(f =>
+                    f.OriginAirport == filter.OriginIataCode &&
+                    f.DestinationAirport == filter.DestinationIataCode &&
+                    f.DepartureDate.Date == filter.DepartureDate.Date &&
+                    (!filter.ReturnDate.HasValue || f.ReturnDate.HasValue && f.ReturnDate.Value.Date == filter.ReturnDate.Value.Date) &&
+                    f.NumberOfPassengers == filter.NumberOfPassengers &&
+                    f.Currency == filter.Currency);
+
+            var totalCount = await flightQuery.CountAsync();
+
+            var flights = await flightQuery
+                            .Skip(skip)
+                            .Take(take)
+                            .ToListAsync();
+
+            var response = new PaginatedResponse<Flight>
+            {
+                Items = flights,
+                TotalCount = totalCount,
+                PageCount = (int)Math.Ceiling(totalCount / (double)filter.PageSize),
+            };
+
+            return response;
         }
 
         public async Task AddFlightsAsync(IEnumerable<Flight> flights)
