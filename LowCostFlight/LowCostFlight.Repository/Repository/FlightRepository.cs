@@ -24,8 +24,11 @@ namespace LowCostFlight.Repository.Repository
                     f.OriginAirport == filter.OriginIataCode &&
                     f.DestinationAirport == filter.DestinationIataCode &&
                     f.DepartureDate.Date == filter.DepartureDate.Date &&
-                    (!filter.ReturnDate.HasValue || f.ReturnDate.HasValue && f.ReturnDate.Value.Date == filter.ReturnDate.Value.Date) &&
-                    f.NumberOfPassengers == filter.NumberOfPassengers &&
+                    (!filter.ReturnDate.HasValue ||
+                     (f.ReturnDate.HasValue &&
+                      f.ReturnDate.Value.Date >= filter.ReturnDate.Value.Date.AddDays(-1) && // 1 day before the filter date
+                      f.ReturnDate.Value.Date <= filter.ReturnDate.Value.Date.AddDays(1))) && // 1 day after the filter date
+                    f.NumberOfPassengers >= filter.NumberOfPassengers &&
                     f.Currency == filter.Currency);
 
             var totalCount = await flightQuery.CountAsync();

@@ -8,10 +8,7 @@ namespace LowCostFlight.Core.Services
     {
         private readonly IConfiguration _configuration;
         private readonly HttpClient _httpClient;
-        private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(1, 1);
         private readonly IDistributedCache _distributedCache;
-        private string _accessToken;
-        private DateTime _accessTokenExpiry;
 
         public TokenService(
             HttpClient httpClient,

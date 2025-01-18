@@ -4,8 +4,8 @@ import Icon from "@mdi/react";
 import { mdiAirplaneSearch } from "@mdi/js";
 import Filter from "./components/Filter";
 import FlightTable from "./components/FilterTable";
-import { currencyMap } from "./utils/currency";
 import Pagination from "./components/Pagination";
+import { currencyMap } from "./utils/currency";
 
 const App = () => {
   const [flights, setFlights] = useState([]);
@@ -30,12 +30,19 @@ const App = () => {
   const fetchFlights = async (data) => {
     try {
       setLoading(true);
-      const response = await axios.get(`https://localhost:44357/api/Flight`, {
-        params: data,
-      });
+      const response = await axios.get(
+        `${process.env.REACT_APP_API_BASE_URL}/api/Flight`,
+        {
+          params: data,
+        }
+      );
 
       const paginatedResponse = response.data;
-      setFlights(paginatedResponse.items);
+      const transformedFlights = paginatedResponse.items.map((flight) => ({
+        ...flight,
+        currency: currencyMap[flight.currency] || "Unknown", // Map the currency based on the value returned
+      }));
+      setFlights(transformedFlights);
       setPagination((prev) => ({
         ...prev,
         totalCount: paginatedResponse.totalCount,

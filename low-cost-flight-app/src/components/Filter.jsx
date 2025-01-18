@@ -68,18 +68,20 @@ const Filter = ({ onSearch }) => {
             value={departureDate}
             onChange={(e) => {
               const selectedDate = new Date(e.target.value);
-              const now = new Date();
-              const returnDateValue = new Date(returnDate);
+              const now = new Date().setHours(0, 0, 0, 0); // Ensure comparison is on the same date level (no time)
+              const returnDateValue = returnDate
+                ? new Date(returnDate).setHours(0, 0, 0, 0)
+                : null;
 
-              // Ensure departure date is after now and before return date
+              // Ensure departure date is after today and before the return date
               if (
-                selectedDate > now &&
+                selectedDate >= now &&
                 (!returnDate || selectedDate < returnDateValue)
               ) {
                 setDepartureDate(e.target.value);
               } else {
                 alert(
-                  "Departure date must be after today and before the return date."
+                  "Departure date must be today or later and before the return date."
                 );
               }
             }}
@@ -92,13 +94,15 @@ const Filter = ({ onSearch }) => {
             value={returnDate}
             onChange={(e) => {
               const selectedDate = new Date(e.target.value);
-              const departureDateValue = new Date(departureDate);
+              const departureDateValue = departureDate
+                ? new Date(departureDate)
+                : null;
 
-              // Ensure return date is after departure date
-              if (selectedDate >= departureDateValue) {
-                setReturnDate(e.target.value);
-              } else {
+              // If departureDate is set, ensure return date is after departure date
+              if (departureDateValue && selectedDate < departureDateValue) {
                 alert("Return date must be after the departure date.");
+              } else {
+                setReturnDate(e.target.value);
               }
             }}
           />

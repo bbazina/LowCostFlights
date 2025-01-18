@@ -87,19 +87,19 @@ const FlightTable = ({ flights, loading }) => {
               </th>
               <th>
                 <Icon
-                  path={mdiCurrencyUsd}
-                  size={1}
-                  style={{ marginRight: "5px" }}
-                />
-                Currency
-              </th>
-              <th>
-                <Icon
                   path={mdiCashMultiple}
                   size={1}
                   style={{ marginRight: "5px" }}
                 />
                 Total Price
+              </th>
+              <th>
+                <Icon
+                  path={mdiCurrencyUsd}
+                  size={1}
+                  style={{ marginRight: "5px" }}
+                />
+                Currency
               </th>
             </tr>
           </thead>
@@ -113,8 +113,8 @@ const FlightTable = ({ flights, loading }) => {
                 <td>{flight.departureNumberOfStops}</td>
                 <td>{flight.returnNumberOfStops}</td>
                 <td>{flight.numberOfPassengers}</td>
-                <td>{flight.currency}</td>
                 <td>{flight.totalPrice}</td>
+                <td>{flight.currency}</td>
               </tr>
             ))}
           </tbody>

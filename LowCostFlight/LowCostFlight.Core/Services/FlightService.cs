@@ -34,7 +34,7 @@ namespace LowCostFlight.Core.Services
         {
             // Step 1: Try to fetch data from cache
             var cachedResponse = await GetFlightsFromCacheAsync(filter);
-            if (cachedResponse != null)
+            if (cachedResponse != null && cachedResponse.Items.Count > 0)
             {
                 return cachedResponse;
             }
@@ -134,10 +134,14 @@ namespace LowCostFlight.Core.Services
                     { "originLocationCode", filter.OriginIataCode },
                     { "destinationLocationCode", filter.DestinationIataCode },
                     { "departureDate", filter.DepartureDate.ToString("yyyy-MM-dd") },
-                    { "returnDate", filter.ReturnDate.HasValue ? filter.ReturnDate.Value.ToString("yyyy-MM-dd") : null },
                     { "adults", filter.NumberOfPassengers.ToString() },
                     { "currencyCode", filter.Currency.GetCurrency() },
                 };
+
+                if (filter.ReturnDate.HasValue)
+                {
+                    queryParams.Add("returnDate", filter.ReturnDate.Value.ToString("yyyy-MM-dd"));
+                }
 
                 var queryString = string.Join("&", queryParams.Select(kvp => $"{kvp.Key}={kvp.Value}"));
                 var fullUrl = $"{apiUrl}?{queryString}";
@@ -162,6 +166,9 @@ namespace LowCostFlight.Core.Services
                 // Get the first and last segments of the itineraries
                 var firstSegment = firstItinerary.GetProperty("segments").EnumerateArray().First();
                 var lastSegment = lastItinerary.GetProperty("segments").EnumerateArray().Last();
+
+                var departureSegments = firstItinerary.GetProperty("segments").EnumerateArray();
+                var returnSegments = lastItinerary.GetProperty("segments").EnumerateArray();
 
                 // Set the origin airport from the first segment's departure (first itinerary)
                 flight.OriginAirport = firstSegment.GetProperty("departure").GetProperty("iataCode").GetString();
@@ -195,11 +202,12 @@ namespace LowCostFlight.Core.Services
                     : null;
 
                 // Mapping Stop Counts
-                flight.DepartureNumberOfStops = firstSegment.GetProperty("numberOfStops").GetInt32();
-                flight.ReturnNumberOfStops = lastSegment.GetProperty("numberOfStops").GetInt32();
+                flight.DepartureNumberOfStops = departureSegments.Count() - 1;
+                flight.ReturnNumberOfStops = returnSegments.Count() - 1;
 
                 // Mapping Passengers and Currency
-                flight.NumberOfPassengers = filter.NumberOfPassengers;
+                flight.NumberOfPassengers = flightItem.GetProperty("numberOfBookableSeats").GetInt32();
+
                 flight.Currency = Enum.TryParse(flightItem.GetProperty("price").GetProperty("currency").GetString(), out Currency currency)
                                   ? currency : Currency.USD;
 
