@@ -3,7 +3,7 @@ import axios from "axios";
 import Icon from "@mdi/react";
 import { mdiAirplaneSearch } from "@mdi/js";
 import Filter from "./components/Filter";
-import FlightTable from "./components/FilterTable";
+import FlightTable from "./components/FlightTable";
 import Pagination from "./components/Pagination";
 import { currencyMap } from "./utils/currency";
 
