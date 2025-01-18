@@ -83,7 +83,7 @@ const FlightTable = ({ flights, loading }) => {
                   size={1}
                   style={{ marginRight: "5px" }}
                 />
-                Passengers
+                Available Seats
               </th>
               <th>
                 <Icon
