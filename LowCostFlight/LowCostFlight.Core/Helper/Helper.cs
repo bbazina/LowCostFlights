@@ -6,17 +6,13 @@ namespace LowCostFlight.Core.Helper
     {
         public static string GetCurrency(this Currency currency)
         {
-            switch (currency)
+            return currency switch
             {
-                case Currency.EUR:
-                    return "EUR";
-                case Currency.USD:
-                    return "USD";
-                case Currency.GBP:
-                    return "GBP";
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(currency), currency, null);
-            }
+                Currency.EUR => "EUR",
+                Currency.USD => "USD",
+                Currency.GBP => "GBP",
+                _ => throw new ArgumentOutOfRangeException(nameof(currency), currency, null),
+            };
         }
     }
 }

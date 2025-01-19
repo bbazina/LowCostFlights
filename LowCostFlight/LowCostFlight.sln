@@ -19,6 +19,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE6BB302-AFD9-4DEB-81D3-A2C3F2C8994C}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowCostFlight.Repository", "LowCostFlight.Repository\LowCostFlight.Repository.csproj", "{594F04D2-6FA6-4C38-806D-08FC164AC5AA}"

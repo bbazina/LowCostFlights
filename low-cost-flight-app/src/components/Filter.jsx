@@ -13,7 +13,6 @@ const Filter = ({ onSearch }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Pass filter data to the onSearch function
     onSearch({
       originIataCode,
       destinationIataCode,
@@ -67,23 +66,7 @@ const Filter = ({ onSearch }) => {
             type="date"
             value={departureDate}
             onChange={(e) => {
-              const selectedDate = new Date(e.target.value);
-              const now = new Date().setHours(0, 0, 0, 0); // Ensure comparison is on the same date level (no time)
-              const returnDateValue = returnDate
-                ? new Date(returnDate).setHours(0, 0, 0, 0)
-                : null;
-
-              // Ensure departure date is after today and before the return date
-              if (
-                selectedDate >= now &&
-                (!returnDate || selectedDate < returnDateValue)
-              ) {
-                setDepartureDate(e.target.value);
-              } else {
-                alert(
-                  "Departure date must be today or later and before the return date."
-                );
-              }
+              setDepartureDate(e.target.value);
             }}
           />
         </label>
@@ -93,17 +76,7 @@ const Filter = ({ onSearch }) => {
             type="date"
             value={returnDate}
             onChange={(e) => {
-              const selectedDate = new Date(e.target.value);
-              const departureDateValue = departureDate
-                ? new Date(departureDate)
-                : null;
-
-              // If departureDate is set, ensure return date is after departure date
-              if (departureDateValue && selectedDate < departureDateValue) {
-                alert("Return date must be after the departure date.");
-              } else {
-                setReturnDate(e.target.value);
-              }
+              setReturnDate(e.target.value);
             }}
           />
         </label>

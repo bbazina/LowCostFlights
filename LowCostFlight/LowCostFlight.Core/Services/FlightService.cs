@@ -49,7 +49,7 @@ namespace LowCostFlight.Core.Services
             }
 
             // Step 3: Fetch flights from external API if not found in DB
-            var flightsFromApi = await GetFlightsFromApiAsync(filter);
+            var flightsFromApi = await GetFlightsFromExternalApiAsync(filter);
             if (flightsFromApi.Count > 0)
             {
                 // Save flights to the database
@@ -94,7 +94,7 @@ namespace LowCostFlight.Core.Services
             });
         }
 
-        private async Task<List<Flight>> GetFlightsFromApiAsync(FilterQuery filter)
+        private async Task<List<Flight>> GetFlightsFromExternalApiAsync(FilterQuery filter)
         {
             using HttpClient client = _httpClientFactory.CreateClient();
             var token = await _tokenService.GetAccessTokenAsync();
@@ -163,20 +163,16 @@ namespace LowCostFlight.Core.Services
                 var firstItinerary = itineraries.First();
                 var lastItinerary = itineraries.Last();
 
-                // Get the first and last segments of the itineraries
                 var firstSegment = firstItinerary.GetProperty("segments").EnumerateArray().First();
                 var lastSegment = lastItinerary.GetProperty("segments").EnumerateArray().Last();
 
                 var departureSegments = firstItinerary.GetProperty("segments").EnumerateArray();
                 var returnSegments = lastItinerary.GetProperty("segments").EnumerateArray();
 
-                // Set the origin airport from the first segment's departure (first itinerary)
                 flight.OriginAirport = firstSegment.GetProperty("departure").GetProperty("iataCode").GetString();
 
-                // Set the destination airport based on whether it's a one-way or round-trip flight
                 if (itineraries.Count() == 1)
                 {
-                    // One-way flight: destination is the arrival of the last segment in the first itinerary
                     flight.DestinationAirport = firstItinerary.GetProperty("segments")
                                                                .EnumerateArray()
                                                                .Last()
@@ -186,7 +182,6 @@ namespace LowCostFlight.Core.Services
                 }
                 else
                 {
-                    // Round-trip flight: destination is the arrival of the last segment in the second itinerary (return leg)
                     flight.DestinationAirport = lastItinerary.GetProperty("segments")
                                                               .EnumerateArray()
                                                               .First()
@@ -195,17 +190,14 @@ namespace LowCostFlight.Core.Services
                                                               .GetString();
                 }
 
-                // Mapping Dates
                 flight.DepartureDate = DateTime.Parse(firstSegment.GetProperty("departure").GetProperty("at").GetString());
                 flight.ReturnDate = lastSegment.GetProperty("arrival").GetProperty("at").GetString() != null
                     ? DateTime.Parse(lastSegment.GetProperty("arrival").GetProperty("at").GetString())
                     : null;
 
-                // Mapping Stop Counts
                 flight.DepartureNumberOfStops = departureSegments.Count() - 1;
                 flight.ReturnNumberOfStops = returnSegments.Count() - 1;
 
-                // Mapping Passengers and Currency
                 flight.NumberOfPassengers = flightItem.GetProperty("numberOfBookableSeats").GetInt32();
 
                 flight.Currency = Enum.TryParse(flightItem.GetProperty("price").GetProperty("currency").GetString(), out Currency currency)

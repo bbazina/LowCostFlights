@@ -59,10 +59,8 @@ namespace LowCostFlight.Core.Services
                 return string.Empty;
             }
 
-            // Subtract a buffer of 10 seconds to avoid expiry during usage
             var expirationTime = TimeSpan.FromSeconds(expiresIn - 10);
 
-            // Store the token in Redis with the expiration time set to the token's expiration
             await _distributedCache.SetStringAsync(redisTokenKey, accessToken, new DistributedCacheEntryOptions
             {
                 AbsoluteExpirationRelativeToNow = expirationTime
